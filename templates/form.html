@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Covid-19 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/form.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <form class="form" action="/data" method="POST">
+        <div class="title">Test Covid-19 </div>
+        <div class="subtitle">Merci de remplir ce formulaire</div>
+        
+        <fieldset id="toux">
+                        <label>Est ce que vous toussez ?</label>
+                <div>
+                        <input type="radio"  name="toux" value="oui">
+                        <label for="toux">Oui</label>
+                </div>
+                <div>
+                        <input type="radio" name="toux" value="non">
+                        <label for="toux">Non</label>
+                </div>
+        </fieldset>  
+        <fieldset id="fievre">    
+                <label>Est ce que vous avez de la fièvre ?</label>
+                <div>
+                    <input type="radio" name="fievre" value="oui" >
+                    <label for="fievre">Oui</label>
+                </div>
+                <div>
+                    <input type="radio"  name="fievre" value="non">
+                    <label for="fievre">Non</label>
+                </div>
+        </fieldset> 
+        <fieldset id="gorge"> 
+                <label>Est ce que vous avez mal à la gorge ?</label>
+                <div>
+                <input type="radio"  name="gorge" value="oui" >
+                <label for="gorge">Oui</label>
+                </div>
+                <div>
+                <input type="radio"  name="gorge" value="non">
+                <label for="gorge">Non</label>
+                </div>
+        </fieldset>
+        <fieldset id="tete">        
+                <label>Est ce que vous avez mal à la tête ?</label>
+                <div>
+                <input type="radio" name="tete" value="oui"  >
+                <label for="tete">Oui</label>
+                </div>
+                <div>
+                <input type="radio"  name="tete" value="non">
+                <label for="tete">Non</label>
+                </div>
+        </fieldset> 
+        <fieldset id="age">                
+                <label>êtes vous essouflé ? </label>
+                <div>
+                <input type="radio" name="essoufle" value="oui" >
+                <label for="essoufle">Oui</label>
+                </div>
+                <div>
+                <input type="radio"name="essoufle" value="non">
+                <label for="essoufle">Non</label>
+                </div>
+        </fieldset> 
+        <fieldset id="age"> 
+                <label>Avez vous plus de 60 ans ?</label>
+                <div>
+                <input type="radio" name="age" value="oui" >
+                <label for="age">Oui</label>
+                </div>
+                <div>
+                <input type="radio" name="age" value="non">
+                <label for="age">Non</label>
+                </div>
+        </fieldset> 
+        <br>
+        <div class="button">
+                <button type="reset" class="reset" >Effacer</button>
+                <button type="text" class="submit">Faire le Test</button>
+        </div>
+    </form>
+
+
+
+
+</body>
+</html>

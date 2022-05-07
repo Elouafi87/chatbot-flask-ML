@@ -1,0 +1,121 @@
+body {
+  align-items: center;
+  background-color: rgb(228, 200, 200);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+  
+  p {
+    color: #eee;
+
+  }
+
+  input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px rgb(0, 131, 22);
+  }
+
+label{
+    color: #eee;
+}
+  .form {
+    
+      display: flex;
+      flex-flow: column wrap;
+      width: 100%;
+      width: 400px;
+      border-radius: 10px;
+     
+      box-shadow: 0 15px 15px -5px rgba(10, 10, 10, 0.2);
+    }
+  
+  
+  .title  {
+  font-size: medium;
+  padding: 15px;
+  text-align: center;
+  background: rgb(73, 72, 97);
+  /*#eee */
+  color: rgb(248, 244, 244);
+  font-size: 1.8em;
+  
+}
+
+
+  .subtitle {
+  font-size: medium;
+  padding: 13px;
+  text-align: center;
+  border-bottom: var(--border);
+  background: rgb(73, 72, 97);
+  color: rgb(248, 244, 244);
+  border-bottom: 4px #dc2f55 solid;
+  }
+  
+
+  fieldset {
+    background: rgb(73, 72, 97);
+    color: rgb(248, 244, 244);
+    margin: 0%;   
+
+  }
+ 
+  .input {
+    background-color: #010b69;  
+    box-sizing: border-box;
+    color: rgb(196, 7, 7);
+    font-size: 25px;
+    height: 100%;  
+    width: 100%;
+  }
+  
+ 
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+   .submit {
+    background-color: rgb(36, 142, 207);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    width: 45%;
+    
+  }
+  .reset {
+    background-color: rgb(36, 142, 207);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    width: 45%;
+   
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+  
+
+  .button {
+    display: flex;
+    justify-content: space-between;
+  }
+  

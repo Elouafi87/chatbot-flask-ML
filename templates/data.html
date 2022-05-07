@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Covid-19 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="../static/styles/data.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="msger">
+        <header class="msger-header">            
+               Résultat de votre test            
+        </header>
+        <div class="message">
+               
+                    <h2> {{symptomes[0]}}</h2>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3> {{symptomes[1]}}</h3>
+                     {% if symptomes[2] == "oui" %} 
+                    <h3 class="vert">  - {{symptomes[2]}} </h3>
+                      {% else %}
+                      <h3 class="rouge"> -  {{symptomes[2]}} </h3>
+                      {% endif %}
+                      <h3> {{symptomes[3]}}</h3>
+
+                      {% if symptomes[4] == "oui" %} 
+                    <h3 class="vert">  - {{symptomes[4]}} </h3>
+                      {% else %}
+                      <h3 class="rouge"> - {{symptomes[4]}} </h3>
+                      {% endif %}
+
+                      <h3> {{symptomes[5]}}</h3>
+                      {% if symptomes[6] == "oui" %} 
+                    <h3 class="vert">  - {{symptomes[6]}} </h3>
+                      {% else %}
+                      <h3 class="rouge"> - {{symptomes[6]}} </h3>
+                      {% endif %}
+
+                      <h3> {{symptomes[7]}}</h3>
+                      {% if symptomes[8] == "oui" %} 
+                    <h3 class="vert"> -  {{symptomes[8]}} </h3>
+                      {% else %}
+                      <h3 class="rouge"> - {{symptomes[8]}} </h3>
+                      {% endif %}
+
+                      <h3> {{symptomes[9]}}</h3>
+                      {% if symptomes[10] == "oui" %} 
+                    <h3 class="vert"> -  {{symptomes[10]}} </h3>
+                      {% else %}
+                      <h3 class="rouge">-  {{symptomes[10]}} </h3>
+                      {% endif %}
+
+                      <h3> {{symptomes[11]}}</h3>
+                      {% if symptomes[12] == "oui" %} 
+                    <h3 class="vert"> -  {{symptomes[12]}} </h3>
+                      {% else %}
+                      <h3 class="rouge">-  {{symptomes[12]}} </h3>
+                      {% endif %}
+
+                      <br>
+                      <br>
+                      <hr>
+                      <hr>
+                <br>
+                <span class="h2r">Résultat du Test : </span>
+                <br><br>
+               <span class="h2m"> {{ message }} </span>
+        </div>
+    </div>
+
+  
+</body>
+</html>  

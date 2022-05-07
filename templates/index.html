@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Covid-19 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        </i> Chatbot Covid-19 </i>
+      </div>
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://cdn.pixabay.com/photo/2020/04/29/08/35/coronavirus-5107832_1280.png)"></div>
+               
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Dr Bot</div>            
+          </div>
+
+          <div class="msg-text">
+            Bonjour et bienvenue! Allez-y et envoyez-moi un message. 😄,
+            Pour faire un test de symptômes, merci d'écrire dans le chat:
+            "Test symptômes"
+          </div>
+
+          
+        </div>
+        
+      </div>
+
+
+    </main>
+
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Enter votre message...">
+      <button type="submit" class="msger-send-btn">Envoyer</button>
+    </form>
+  </section>
+
+
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script  src="../static/JS/script.js"></script>
+
+</body>
+
+</html>

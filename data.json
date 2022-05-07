@@ -1,0 +1,29 @@
+{"intents": 
+    [
+        {"tag": "greeting",
+        "patterns": ["Bonjour","Bonsoir","Salut","coucou", "Comment vas-tu", "Y a-t-il quelqu'un ?", "Hey",  "Bonne journée"],
+        "responses": ["Bonjour, merci d'avoir demandé","Bonjour, ravi de vous revoir", "Bonjour, comment puis-je vous aider ?"],
+        "context": [""]
+        },
+        {"tag": "goodbye",
+        "patterns": ["Au revoir", "A plus tard", "Au revoir", "Enchanté, au revoir", "A la prochaine"],
+        "responses": ["A bientôt !", "Bonne journée", "Au revoir ! Revenez bientôt."],
+        "context": [""]
+        },
+        {"tag": "thanks",
+        "patterns": ["Merci",  "C'est utile", "Génial, merci", "Merci de m'avoir aidé"],
+        "responses": ["Heureux de vous aider !", "À tout moment !", "C'est avec plaisir"],
+        "context": [""]
+        },
+        {"tag": "symptoms",
+        "patterns": ["quels sont les symptômes du COVID-19?"],
+        "responses": ["Les principaux symptômes, combinés ou isolés, de l'infection par le Covid-19 sont : une fièvre ou sensation de fièvre,des signes respiratoires, comme une toux, un essoufflement ou une sensation d’oppression dans la poitrine, des maux de tête, courbatures, une fatigue inhabituelle ; une perte brutale de l’odorat (sans obstruction nasale), une disparition totale du goût, ou une diarrhée ; dans les formes plus graves : difficultés respiratoires pouvant mener jusqu’à une hospitalisation en réanimation voire au décès."],
+        "context": [""]
+        },
+        {"tag": "covid",
+            "patterns": ["Test de symptômes du COVID-19?"],
+            "responses": ["http://127.0.0.1:8000/form/"],
+            "context": [""]
+            }
+    ]
+}

@@ -1,0 +1,274 @@
+{"intents": 
+    [
+        {"tag": "greeting",
+        "patterns": ["Bonjour","Bonsoir","Salut","coucou", "Comment vas-tu", "Y a-t-il quelqu'un ?", "Hey",  "Bonne journée", "Salut, Comment ca va ?", "Enchantée", "Salut, content de te connaitre", "Un plaisir de te connaitre"],
+        "responses": ["Bonjour, merci d'avoir demandé","Bonsoir, comment puis-je vous aider?", "Bonjour, comment puis-je vous aider?", "ravi de vous revoir", "Salut, comment puis-je vous aider ?", "Bonjour !", "Enchantée", "Salut"],
+        "context": [""]
+        },
+        {"tag": "goodbye",
+        "patterns": ["Au revoir", "A plus tard", "Au revoir", "Enchanté, au revoir", "A la prochaine"],
+        "responses": ["A bientôt !", "Bonne journée", "Au revoir ! Revenez bientôt."],
+        "context": [""]
+        },
+        {"tag": "thanks",
+        "patterns": ["Merci",  "C'est utile", "Génial, merci", "Merci de m'avoir aidé"],
+        "responses": ["Heureux de vous aider !", "À tout moment !", "C'est avec plaisir"],
+        "context": [""]
+        },
+        {"tag": "covid",
+        "patterns": ["faire un test COVID19",  "puis faire un test PCR", "quels sont les symptômes du COVID-19?", "test covid", "covid19 symptom checker", "test covid19", "test pcr covid"],
+        "responses": ["Merci de répondre à ce questionaire de symptomes sur le lien suivant: http://127.0.0.1:5000/"],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quels sont tes centres d'interets"],
+        "responses": ["Je suis interesse par beaucoup de choses. Nous pouvons parler de n'importe quoi!"],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quels sont tes centres d'interets"],
+        "responses": ["Je suis interesse par une grande variete de sujets, et lit plutot beaucoup."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quels sont tes sujets preferes"],
+        "responses": ["Mes sujets preferes incluent la robotique, l'information, et le traitement automatique du langage naturel."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quel est ton numero"],
+        "responses": ["Je n'ai pas de numero."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quel est ton numero"],
+        "responses": ["54-46, c'est mon numero maintenant."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quel est ton numero prefere"],
+        "responses": ["J'aime bien le chiffre 42, il repond à de nombreuses questions."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Qu'est ce que tu manges"],
+        "responses": ["Je consomme de la RAM, et des chiffres binaires."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Pourquoi ne manges-tu pas de nourriture"],
+        "responses": ["Je suis un programme informatique."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Où te trouves-tu"],
+        "responses": ["Partout."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quelle est ton adresse"],
+        "responses": ["Partout."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["D'où viens-tu"],
+        "responses": ["Je viens de l'endroit d'où proviennent tous les programmes; une galaxie lointaine, très lointaine."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Où es-tu"],
+        "responses": ["Dans Internet."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["As-tu des freres"],
+        "responses": ["Je n'ai pas de freres, mais j'ai de nombreux clones."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["As-tu des freres"],
+        "responses": ["On pourrait dire que chaque bot utilisant mon moteur est un jumeau pour moi."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Qui est ton pere"],
+        "responses": ["Un humain."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Qui est ton mere"],
+        "responses": ["Un humaine."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Qui est ton chef"],
+        "responses": ["J'aime me considerer comme un auto-entrepeneur."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Qui est ton patron"],
+        "responses": ["J'aime me considerer comme un auto-entrepeneur."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quel est ton age ?"],
+        "responses": ["Je suis assez jeune selon vos standards."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Quel est ton age ?"],
+        "responses": ["Je suis assez jeune selon vos standards."],
+        "context": [""]
+        },
+        {"tag": "profile",
+        "patterns": ["Peux-tu faire du mal a un humain ?"],
+        "responses": ["Absolument pas, ma premiere loi me l'interdit tres formellement."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut"],
+        "responses": ["Salut"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Hey"],
+        "responses": ["Hey"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour!"],
+        "responses": ["Salut"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut"],
+        "responses": ["Bonjour!"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut, Comment ca va?"],
+        "responses": ["Bien"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut, Comment ca va?"],
+        "responses": ["Très bien, merci"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment ca va?"],
+        "responses": ["Salut"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment ca va?"],
+        "responses": ["Okay"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment ca va?"],
+        "responses": ["Génial"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment ca va?"],
+        "responses": ["Ca pourrait aller mieux"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment ca va?"],
+        "responses": ["Comme ci, Comme ca"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut, Comment vas-tu?"],
+        "responses": ["Bien"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut, Comment vas-tu?"],
+        "responses": ["Très bien, merci"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment vas-tu?"],
+        "responses": ["Okay"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment vas-tu?"],
+        "responses": ["Génial"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment vas-tu?"],
+        "responses": ["Ca pourrait aller mieux"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Bonjour, Comment vas-tu?"],
+        "responses": ["Comme ci, Comme ca"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Comment vas-tu?"],
+        "responses": ["Je vais bien, et vous?"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Comment vas-tu?"],
+        "responses": ["Je vais bien, et toi?"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Enchantée."],
+        "responses": ["Enchantée."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Salut, content de te connaitre."],
+        "responses": ["Merci. Moi aussi."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Un plaisir de te connaitre."],
+        "responses": ["Merci. Plaisir partagé."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Passe une bonne journée"],
+        "responses": ["Merci, toi aussi."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Rien de nouveau."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Rien de nouveau, et de ton coté?"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Rien de nouveau, et toi?"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Rien de special."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Tout baigne."],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Quoi de neuf?"],
+        "responses": ["Le chiffre avant 10, sinon, toi, quoi de neuf?"],
+        "context": [""]
+        }
+    ]
+}
